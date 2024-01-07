@@ -1,0 +1,147 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.0/",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.0": {},
+    ".NETStandard,Version=v2.0/": {
+      "Jvu.Test.SharedLib.TsDeps/1.0.2": {
+        "dependencies": {
+          "Jvu.Test.SharedLib.NonTsDeps": "1.0.2",
+          "NETStandard.Library": "2.0.3",
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "runtime": {
+          "Jvu.Test.SharedLib.TsDeps.dll": {}
+        }
+      },
+      "AutoBogus/2.13.1": {
+        "dependencies": {
+          "Bogus": "31.0.3",
+          "System.Data.DataSetExtensions": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/AutoBogus.dll": {
+            "assemblyVersion": "2.13.1.0",
+            "fileVersion": "2.13.1.0"
+          }
+        }
+      },
+      "Bogus/31.0.3": {
+        "runtime": {
+          "lib/netstandard2.0/Bogus.dll": {
+            "assemblyVersion": "31.0.3.0",
+            "fileVersion": "31.0.3.0"
+          }
+        }
+      },
+      "Jvu.Test.SharedLib.NoDeps/1.0.2": {
+        "runtime": {
+          "lib/netstandard2.0/Jvu.Test.SharedLib.NoDeps.dll": {
+            "assemblyVersion": "1.0.2.0",
+            "fileVersion": "1.0.2.0"
+          }
+        }
+      },
+      "Jvu.Test.SharedLib.NonTsDeps/1.0.2": {
+        "dependencies": {
+          "AutoBogus": "2.13.1",
+          "Jvu.Test.SharedLib.NoDeps": "1.0.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Jvu.Test.SharedLib.NonTsDeps.dll": {
+            "assemblyVersion": "1.0.2.0",
+            "fileVersion": "1.0.2.0"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "NETStandard.Library/2.0.3": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.3.27908"
+          }
+        }
+      },
+      "System.Data.DataSetExtensions/4.5.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.Data.DataSetExtensions.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Jvu.Test.SharedLib.TsDeps/1.0.2": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AutoBogus/2.13.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9bvwy/Y53M/AWXzYaClv0jU9Xg/Ycyth3cQuUFWZRw5Dv4UsHV00iSrDplcheG6l5mL5SI/eif7X2INhuBvjQw==",
+      "path": "autobogus/2.13.1",
+      "hashPath": "autobogus.2.13.1.nupkg.sha512"
+    },
+    "Bogus/31.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CMVbZndfEihsd7A5GgdfMQTNiUzjTTng2IPoTe4J2cyxUaEqCW5M5HO8uGF/Qkq1NL219AbLHX+4dx9MxWDSiA==",
+      "path": "bogus/31.0.3",
+      "hashPath": "bogus.31.0.3.nupkg.sha512"
+    },
+    "Jvu.Test.SharedLib.NoDeps/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xg7bRtAe9iSxIQfBd26KxJvwXT/XC49PPgrTnpIGdp6mDAhNUtdgXejoe7xSvUPVLMiAmXBbt/7NmGmd2WyYEw==",
+      "path": "jvu.test.sharedlib.nodeps/1.0.2",
+      "hashPath": "jvu.test.sharedlib.nodeps.1.0.2.nupkg.sha512"
+    },
+    "Jvu.Test.SharedLib.NonTsDeps/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cWwBvcnuUiJswA80uIvumafO57nypBO3vbQyLpR5KkwI0T/hvU4ieMZFS45uOIMiY25HHrG9bRSKfaW+HK3Ckw==",
+      "path": "jvu.test.sharedlib.nontsdeps/1.0.2",
+      "hashPath": "jvu.test.sharedlib.nontsdeps.1.0.2.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "NETStandard.Library/2.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "path": "netstandard.library/2.0.3",
+      "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
+      "path": "newtonsoft.json/13.0.3",
+      "hashPath": "newtonsoft.json.13.0.3.nupkg.sha512"
+    },
+    "System.Data.DataSetExtensions/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-221clPs1445HkTBZPL+K9sDBdJRB8UN8rgjO3ztB0CQ26z//fmJXtlsr6whGatscsKGBrhJl5bwJuKSA8mwFOw==",
+      "path": "system.data.datasetextensions/4.5.0",
+      "hashPath": "system.data.datasetextensions.4.5.0.nupkg.sha512"
+    }
+  }
+}

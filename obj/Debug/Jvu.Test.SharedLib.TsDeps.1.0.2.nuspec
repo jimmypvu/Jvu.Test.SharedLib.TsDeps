@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Jvu.Test.SharedLib.TsDeps</id>
+    <version>1.0.2</version>
+    <authors>J.VU</authors>
+    <description>Test library with mini util for serialization and deserialization</description>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Jvu.Test.SharedLib.NonTsDeps" version="1.0.2" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json" version="13.0.3" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\jimmy\source\repos\Jvu.Test.SharedLib.TsDeps\bin\Debug\netstandard2.0\Jvu.Test.SharedLib.TsDeps.dll" target="lib\netstandard2.0\Jvu.Test.SharedLib.TsDeps.dll" />
+  </files>
+</package>
